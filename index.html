@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+        .nav-bar{
+            height: 16vh;
+            width: 100%;
+            background-color: blue;
+            margin: 0;
+        }
+        .content{
+            height: 80vh;
+            width: 98%;
+            background-color: lightcoral;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 12px;
+            overflow: hidden;
+        }
+        .box{
+            height: 40vh;
+            width: 40vw;
+            background-color: blueviolet;
+            display: flex;
+            margin: 30px;
+        }
+        /*Welcome*/
+        .welcome{
+            border: 1px solid black;
+            border-radius: 50px;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 120px;
+            width: 50%;
+            margin: 12px auto;
+            padding: 9px 19px;
+        }
+        .welcome p{
+            text-align: center;
+        }
+        /*footer*/
+        .footer{
+            height: 16vh;
+            width: 100%;
+            background-color: rgb(179, 139, 139);
+        }
+        /*Image*/
+        .middle{
+            display: flex;
+            align-items: center;
+        }
+        .img{
+            position: absolute;
+            right: 267px;
+            bottom: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar"></div>
+    <div class="content">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="middle">
+        <div class="welcome">
+            <p>welcome to this sigma Web Development Express</p>
+        </div>
+        <div class="img">
+            <img height="50px" width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlwlxHXmB3Jn7doKheLl5Zact1SwBwl2Plu7ScDaZBN4P7d2TRFkWeUgc5y3i4AXiBxPc" alt="">
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
